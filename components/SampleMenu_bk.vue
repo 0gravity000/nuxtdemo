@@ -3,11 +3,9 @@
     <h4>サンプル</h4>
     <ul>
       <li>
-        <NuxtLink
-          to="/sample/mustache"
-        >
+        <button @click="clickSampleMustache">
           マスタッシュ構文 {{}}
-        </NuxtLink>
+        </button>
       </li>
       <li>
         Nested lists:
@@ -23,6 +21,17 @@
 
 <script>
 export default {
+  data () {
+    return {
+      page: ''
+    }
+  },
+  methods: {
+    clickSampleMustache () {
+      this.page = 'mustache'
+      this.$emit('clickedSamplePage', this.page)
+    }
+  }
 }
 </script>
 
