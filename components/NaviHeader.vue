@@ -25,7 +25,7 @@
             </li>
             <li class="nav-item mr-2">
               <NuxtLink
-                to="/sample"
+                to="/sample-index"
               >
                 Sample
               </NuxtLink>
