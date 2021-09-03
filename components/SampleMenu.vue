@@ -10,6 +10,41 @@
         </NuxtLink>
       </li>
       <li>
+        <NuxtLink
+          to="/sample/vif"
+        >
+          v-if
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
+          to="/sample/vfor"
+        >
+          v-for
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
+          to="/sample/vbind"
+        >
+          v-bind（省略形 :）
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
+          to="/sample/von"
+        >
+          v-on（省略形 @）
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
+          to="/sample/vmodel"
+        >
+          v-model
+        </NuxtLink>
+      </li>
+      <li>
         Nested lists:
         <ul>
           <li>are unaffected by this style</li>
