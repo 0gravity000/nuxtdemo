@@ -52,6 +52,13 @@
         </NuxtLink>
       </li>
       <li>
+        <NuxtLink
+          to="/sample/computed"
+        >
+          算出プロパティ
+        </NuxtLink>
+      </li>
+      <li>
         Nested lists:
         <ul>
           <li>are unaffected by this style</li>
