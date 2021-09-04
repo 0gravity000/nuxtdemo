@@ -66,6 +66,13 @@
         </NuxtLink>
       </li>
       <li>
+        <NuxtLink
+          to="/sample/SampleCssTransition"
+        >
+          CSSトランジション
+        </NuxtLink>
+      </li>
+      <li>
         調査中
         <ul>
           <li>
