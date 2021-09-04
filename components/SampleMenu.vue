@@ -45,6 +45,13 @@
         </NuxtLink>
       </li>
       <li>
+        <NuxtLink
+          to="/sample/lifecyclehooks"
+        >
+          ライフサイクルフック
+        </NuxtLink>
+      </li>
+      <li>
         Nested lists:
         <ul>
           <li>are unaffected by this style</li>
