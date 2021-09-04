@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Nuxt.js Demo</a>
         <button
           class="navbar-toggler"
           type="button"

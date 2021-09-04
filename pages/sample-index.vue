@@ -1,6 +1,6 @@
 <template>
   <div>
-    内容
+    <h3>サンプルコード</h3>
   </div>
 </template>
 

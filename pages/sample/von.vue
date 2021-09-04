@@ -1,11 +1,25 @@
 <template>
   <div>
-    v-on
+    <h3>v-on（省略形 @）</h3>
+    <p>{{ message }}</p>
+    <button @click="reverseMessage">
+      Reverse Message
+    </button>
   </div>
 </template>
 
 <script>
 export default {
-  layout: 'sample'
+  layout: 'sample',
+  data () {
+    return {
+      message: 'Hello Vue.js!'
+    }
+  },
+  methods: {
+    reverseMessage () {
+      this.message = this.message.split('').reverse().join('')
+    }
+  }
 }
 </script>
