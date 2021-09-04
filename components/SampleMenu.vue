@@ -87,6 +87,13 @@
         </NuxtLink>
       </li>
       <li>
+        <NuxtLink
+          to="/sample/SampleListEnteringLeavingTransition"
+        >
+          リスト Entering/Leaving トランジション
+        </NuxtLink>
+      </li>
+      <li>
         調査中
         <ul>
           <li>
