@@ -4,80 +4,77 @@
     <ul>
       <li>
         <NuxtLink
-          to="/sample/mustache"
+          to="/sample/SampleMustache"
         >
           マスタッシュ構文 {{}}
         </NuxtLink>
       </li>
       <li>
         <NuxtLink
-          to="/sample/vif"
+          to="/sample/SampleVif"
         >
           v-if
         </NuxtLink>
       </li>
       <li>
         <NuxtLink
-          to="/sample/vfor"
+          to="/sample/SampleVfor"
         >
           v-for
         </NuxtLink>
       </li>
       <li>
         <NuxtLink
-          to="/sample/vbind"
+          to="/sample/SampleVbind"
         >
           v-bind（省略形 :）
         </NuxtLink>
       </li>
       <li>
         <NuxtLink
-          to="/sample/vbindclass"
+          to="/sample/SampleVbindClass"
         >
           v-bind:class（省略形 :class）
         </NuxtLink>
       </li>
       <li>
         <NuxtLink
-          to="/sample/vbindstyle"
+          to="/sample/SampleVbindStyle"
         >
           v-bind:style（省略形 :style）
         </NuxtLink>
       </li>
       <li>
         <NuxtLink
-          to="/sample/von"
+          to="/sample/SampleVon"
         >
           v-on（省略形 @）
         </NuxtLink>
       </li>
       <li>
         <NuxtLink
-          to="/sample/vmodel"
+          to="/sample/SampleVmodel"
         >
           v-model
         </NuxtLink>
       </li>
       <li>
         <NuxtLink
-          to="/sample/lifecyclehooks"
-        >
-          ライフサイクルフック
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink
-          to="/sample/computed"
+          to="/sample/SampleComputed"
         >
           算出プロパティ
         </NuxtLink>
       </li>
       <li>
-        Nested lists:
+        調査中
         <ul>
-          <li>are unaffected by this style</li>
-          <li>will still show a bullet</li>
-          <li>and have appropriate left margin</li>
+          <li>
+            <NuxtLink
+              to="/sample/SampleLifecycleHooks"
+            >
+              ライフサイクルフック
+            </NuxtLink>
+          </li>
         </ul>
       </li>
     </ul>

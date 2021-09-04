@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  layout: 'sample',
+  layout: 'LayoutSample',
   data () {
     return {
       message: '調査中'
