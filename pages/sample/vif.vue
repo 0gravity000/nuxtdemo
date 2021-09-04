@@ -1,11 +1,28 @@
 <template>
   <div>
     <h3>v-if</h3>
-    <span v-if="seen">Now you see me</span>
+    <h4>v-if/v-else</h4>
+    <p>v-else 要素は、v-if または v-else-if 要素の直後になければなりません。それ以外の場合は認識されません。</p>
+    <span v-if="seen">seenは{{ seen }}</span>
+    <span v-else>seenは{{ seen }}</span>
     <div>
       <button @click="clickBtn">
-        クリックすると表示/非表示が切り替わる
+        クリックすると値が切り替わる
       </button>
+    </div>
+
+    <h4>v-else-if バージョン2.1.0 から</h4>
+    <div v-if="type === 'A'">
+      A
+    </div>
+    <div v-else-if="type === 'B'">
+      B
+    </div>
+    <div v-else-if="type === 'C'">
+      C
+    </div>
+    <div v-else>
+      Not A/B/C
     </div>
   </div>
 </template>
@@ -15,7 +32,8 @@ export default {
   layout: 'sample',
   data () {
     return {
-      seen: true
+      seen: true,
+      type: 'A'
     }
   },
   methods: {
