@@ -32,6 +32,20 @@
       </li>
       <li>
         <NuxtLink
+          to="/sample/vbindclass"
+        >
+          v-bind:class（省略形 :class）
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
+          to="/sample/vbindstyle"
+        >
+          v-bind:style（省略形 :style）
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
           to="/sample/von"
         >
           v-on（省略形 @）

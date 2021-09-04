@@ -24,7 +24,9 @@ export default {
     return {
       message: 'title属性にバインドされたメッセージ',
       attributeName: 'href',
-      url: 'https://jp.vuejs.org/v2/guide/syntax.html#%E5%8B%95%E7%9A%84%E5%BC%95%E6%95%B0'
+      url: 'https://jp.vuejs.org/v2/guide/syntax.html#%E5%8B%95%E7%9A%84%E5%BC%95%E6%95%B0',
+      dynamicId: 'button-example01',
+      isButtonDisabled: false
     }
   }
 }
