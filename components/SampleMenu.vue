@@ -73,6 +73,13 @@
         </NuxtLink>
       </li>
       <li>
+        <NuxtLink
+          to="/sample/SampleCssAnimation"
+        >
+          CSSアニメーション
+        </NuxtLink>
+      </li>
+      <li>
         調査中
         <ul>
           <li>
