@@ -80,6 +80,13 @@
         </NuxtLink>
       </li>
       <li>
+        <NuxtLink
+          to="/sample/SampleTransitionClass"
+        >
+          トランジションクラス
+        </NuxtLink>
+      </li>
+      <li>
         調査中
         <ul>
           <li>
