@@ -81,6 +81,13 @@
       </li>
       <li>
         <NuxtLink
+          to="/sample/SampleComponentBParent"
+        >
+          コンポーネント その2
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
           to="/sample/SampleCssTransition"
         >
           CSSトランジション
