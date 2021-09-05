@@ -67,6 +67,13 @@
       </li>
       <li>
         <NuxtLink
+          to="/sample/SampleFormInputBind"
+        >
+          フォーム入力バインディング
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
           to="/sample/SampleCssTransition"
         >
           CSSトランジション
