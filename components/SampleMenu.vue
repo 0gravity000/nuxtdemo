@@ -94,6 +94,13 @@
         </NuxtLink>
       </li>
       <li>
+        <NuxtLink
+          to="/sample/SampleListMoveTransition"
+        >
+          リスト移動トランジション
+        </NuxtLink>
+      </li>
+      <li>
         調査中
         <ul>
           <li>
