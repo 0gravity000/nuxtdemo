@@ -95,6 +95,13 @@
       </li>
       <li>
         <NuxtLink
+          to="/sample/SampleSlotBParent"
+        >
+          スロット その2
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
           to="/sample/SampleCssTransition"
         >
           CSSトランジション
