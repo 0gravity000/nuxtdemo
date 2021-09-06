@@ -31,6 +31,13 @@
                   Sample
                 </NuxtLink>
               </li>
+              <li class="nav-item mr-2">
+                <NuxtLink
+                  to="/advance-index"
+                >
+                  Advance
+                </NuxtLink>
+              </li>
             </ul>
           </div>
         </nav>
