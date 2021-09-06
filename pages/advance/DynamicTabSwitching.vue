@@ -37,7 +37,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .tab-button {
   padding: 6px 10px;
   border-top-left-radius: 3px;

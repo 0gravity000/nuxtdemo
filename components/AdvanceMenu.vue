@@ -9,6 +9,13 @@
           動的なタブ切替
         </NuxtLink>
       </li>
+      <li>
+        <NuxtLink
+          to="/advance/TodoListApp"
+        >
+          Todo List App
+        </NuxtLink>
+      </li>
     </ul>
   </div>
 </template>
