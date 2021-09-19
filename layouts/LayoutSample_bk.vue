@@ -8,7 +8,7 @@
             @clickedSamplePage="showSamplePage"
           />
         </div>
-        <div class="col">
+        <div class="col-8">
           <Nuxt
             :content="page"
           />

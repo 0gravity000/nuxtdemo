@@ -6,7 +6,7 @@
         <div class="col-4">
           <AdvanceMenu />
         </div>
-        <div class="col">
+        <div class="col-8">
           <Nuxt />
         </div>
       </div>
