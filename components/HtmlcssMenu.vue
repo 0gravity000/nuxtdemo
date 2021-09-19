@@ -18,6 +18,13 @@
       </li>
       <li>
         <NuxtLink
+          to="/htmlcss/OverallStructureAndMetainformation"
+        >
+          全体構造とメタ情報
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
           to="/htmlcss/SectionAndBasicStructure"
         >
           セクションと基本構造
