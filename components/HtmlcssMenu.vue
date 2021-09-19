@@ -4,6 +4,20 @@
     <ul>
       <li>
         <NuxtLink
+          to="/htmlcss/AllElements"
+        >
+          HTML 全要素
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
+          to="/htmlcss/GlobalAttributes"
+        >
+          グローバル属性
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
           to="/htmlcss/SectionAndBasicStructure"
         >
           セクションと基本構造
@@ -122,7 +136,6 @@
           CSS その他
         </NuxtLink>
       </li>
-
     </ul>
   </div>
 </template>
