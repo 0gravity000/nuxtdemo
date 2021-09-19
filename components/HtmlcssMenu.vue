@@ -4,6 +4,13 @@
     <ul>
       <li>
         <NuxtLink
+          to="/htmlcss/BasicKnowledgeOfHtml"
+        >
+          HTMLの基礎知識
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
           to="/htmlcss/AllElements"
         >
           HTML 全要素
