@@ -38,6 +38,13 @@
                   Advance
                 </NuxtLink>
               </li>
+              <li class="nav-item mr-2">
+                <NuxtLink
+                  to="/htmlcss-index"
+                >
+                  HTML/CSS
+                </NuxtLink>
+              </li>
             </ul>
           </div>
         </nav>
