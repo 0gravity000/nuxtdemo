@@ -51,6 +51,13 @@
           テーブル関連の要素
         </NuxtLink>
       </li>
+      <li>
+        <NuxtLink
+          to="/htmlcss/OtherElements"
+        >
+          その他の要素
+        </NuxtLink>
+      </li>
     </ul>
   </div>
 </template>
