@@ -4,6 +4,13 @@
     <ul>
       <li>
         <NuxtLink
+          to="/htmlcss/SectionAndBasicStructure"
+        >
+          セクションと基本構造
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
           to="/htmlcss/TextElements"
         >
           テキスト関連の要素
