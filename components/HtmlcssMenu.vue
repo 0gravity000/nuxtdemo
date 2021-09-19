@@ -82,6 +82,13 @@
       <!-- CSS -->
       <li>
         <NuxtLink
+          to="/htmlcss/BasicKnowledgeOfCss"
+        >
+          CSSの基礎知識
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
           to="/htmlcss/CssSelector"
         >
           CSS セレクタ
