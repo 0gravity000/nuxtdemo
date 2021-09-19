@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>テキスト p要素</h3>
+    <h3>ルビ関連の要素</h3>
   </div>
 </template>
 

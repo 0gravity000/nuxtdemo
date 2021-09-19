@@ -4,9 +4,44 @@
     <ul>
       <li>
         <NuxtLink
-          to="/htmlcss/TextElP"
+          to="/htmlcss/TextElements"
         >
-          テキスト p要素
+          テキスト関連の要素
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
+          to="/htmlcss/ListElements"
+        >
+          リスト関連の要素
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
+          to="/htmlcss/RubyElements"
+        >
+          ルビ関連の要素
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
+          to="/htmlcss/MediaElements"
+        >
+          画像・動画・音声関連の要素
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
+          to="/htmlcss/FormElements"
+        >
+          フォーム関連の要素
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
+          to="/htmlcss/TableElements"
+        >
+          テーブル関連の要素
         </NuxtLink>
       </li>
     </ul>
